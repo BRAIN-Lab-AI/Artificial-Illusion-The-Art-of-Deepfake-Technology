@@ -13,8 +13,8 @@ Considering these concerns, we’ve searched for a way to detect these falsifica
 - **Affiliations:** KFUPM
 
 ### Project Documents
-- **Presentation:** [Project Presentation]([presentation.pptx](https://github.com/BRAIN-Lab-AI/Artificial-Illusion-The-Art-of-Deepfake-Technology/blob/main/Deep_Learning_pt.pptx))
-- **Report:** [Project Report]([report.pdf](https://github.com/BRAIN-Lab-AI/Artificial-Illusion-The-Art-of-Deepfake-Technology/blob/main/Artificial%20Illusion-The%20Art%20of%20Deepfake%20Technology_Final.pdf))
+- **Presentation:** [Project Presentation](https://github.com/BRAIN-Lab-AI/Artificial-Illusion-The-Art-of-Deepfake-Technology/blob/main/Deep_Learning_pt.pptx)
+- **Report:** [Project Report](https://github.com/BRAIN-Lab-AI/Artificial-Illusion-The-Art-of-Deepfake-Technology/blob/main/Artificial%20Illusion-The%20Art%20of%20Deepfake%20Technology_Final.pdf)
   
 
 ### Reference Paper
