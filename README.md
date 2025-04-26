@@ -52,11 +52,12 @@ As deepfake generator continue to spread on various fields the detection models 
 3. **Enhanced Data Augmentation:** Implement advanced video-specific data augmentation strategies to improve model robustness and reduce overfitting.
 
 ### Proposed Solution: Code-Based Implementation
-This repository provides an implementation of the enhanced stable diffusion model using PyTorch. The solution includes:
+This repository provides an implementation of the enhanced MesoNet Model by using TensorFlow to import Keras. The solution includes:
 
-- **Modified UNet Architecture:** Incorporates residual connections and efficient convolutional blocks.
-- **Novel Loss Functions:** Combines Mean Squared Error (MSE) with perceptual loss to enhance feature learning.
-- **Optimized Training Loop:** Reduces computational overhead while maintaining performance.
+- **Modify the Archiricture:** Incorporates the video Sequnce to get the serial of video frams
+- **Robust Loss Functions:** Use Binary Cross Entropy.
+- **Enhance Optempization:** Update The Optimization to AdamW.
+- **Initiate New Convolution:** Add new 3D convolotion model to handel the videos properly.
 
 ### Key Components
 - **`DL_Project_Baseline_Model.ipynb`**: Jupiter Notebook file contains the baseline model components, in addition to enhanced model representation.
