@@ -4,53 +4,54 @@ Below is a template for another sample project. Please follow this template.
 # [Deep Learning Project Template] Enhanced Stable Diffusion: A Deep Learning Approach for Artistic Image Generation
 
 ## Introduction
-Enhanced Stable Diffusion is a cutting-edge deep learning project that redefines artistic image generation by leveraging an advanced diffusion process to convert textual descriptions into high-quality images. By integrating a modified UNet architecture with innovative loss functions and enhanced data augmentation strategies, the model iteratively refines a latent noise vector conditioned on text embeddings to produce detailed and visually compelling artwork. This approach not only addresses common challenges such as slow inference times and output inconsistencies found in traditional diffusion models, but also pushes the boundaries of creative image synthesis, paving the way for novel applications in art, design, and multimedia content creation.
+Artificial Intelligence (AI) has become one of the most widely discussed topics across various fields in recent years, sparking both curiosity and concern due to its rapid advancements. Among AI-driven technologies, deepfake stands out as a powerful yet controversial tool. It enables the creation of synthetic media that can convincingly impersonate real individuals, objects, or events, often with striking realism.
+Due to its ability to generate highly realistic fake content with minimal effort, deepfake technology has significantly impacted the media industry. Unfortunately, its accessibility also makes it a tool for malicious purposes, such as spreading misinformation, manipulating public opinion, and committing fraud. Scammers, for instance, can easily create faked media to impersonate real individuals, deceiving the public and spreading false narratives.
+Considering these concerns, we’ve searched for a way to detect these falsifications and found a suitable proposed methodology in the research paper “MesoNet: A Compact Facial Video Forgery Detection Network” [1].
 
 ## Project Metadata
 ### Authors
-- **Team:** Mohammad Ahmad, Umar Abdullah and Malik Hussain
+- **Team:** Jawaher Mohammed Alkhamis (g202403980)
+            Dhoha Ahmed Almubayedh (g202403920)
 - **Supervisor Name:** Dr. Muzammil Behzad
-- **Affiliations:** SABIC, ARAMCO and KFUPM
+- **Affiliations:** KFUPM
 
 ### Project Documents
 - **Presentation:** [Project Presentation](/presentation.pptx)
 - **Report:** [Project Report](/report.pdf)
 
 ### Reference Paper
-- [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
+- [1] ] Afchar, D., Nozick, V., Yamagishi, J., & Echizen, I. (2018). Mesonet: A compact facial video forgery detection network. 2018 IEEE International Workshop on Information Forensics and Security (WIFS), 1–7. https://doi.org/10.1109/wifs.2018.8630761
 
 ### Reference Dataset
 - [LAION-5B Dataset](https://laion.ai/blog/laion-5b/)
 
 
 ## Project Technicalities
+Deepfake Detection Technicalities
+Terminologies
+•	Deepfake: Digitally manipulated media, typically videos, created using advanced artificial intelligence techniques.
+•	Binary Cross-Entropy Loss: A loss function used for binary classification tasks, measuring how well the predicted probabilities match the actual binary labels.
+•	AdamW Optimizer: An extension of the Adam optimizer that includes weight decay for improved generalization in training deep neural networks.
+•	Data Augmentation: Techniques to artificially expand training datasets by applying transformations such as rotations, cropping, and color adjustments to reduce overfitting.
+•	3D Convolution: A convolution operation that captures temporal dynamics in videos by applying filters across both spatial and temporal dimensions.
+•	Validation Accuracy: A performance metric computed on a separate dataset to gauge model performance and help prevent overfitting.
+•	Epochs: The number of complete passes through the training dataset during model training.
+•	Batch Size: The number of samples processed simultaneously by the neural network before updating its weights.
 
-### Terminologies
-- **Diffusion Model:** A generative model that progressively transforms random noise into coherent data.
-- **Latent Space:** A compressed, abstract representation of data where complex features are captured.
-- **UNet Architecture:** A neural network with an encoder-decoder structure featuring skip connections for better feature preservation.
-- **Text Encoder:** A model that converts text into numerical embeddings for downstream tasks.
-- **Perceptual Loss:** A loss function that measures high-level differences between images, emphasizing perceptual similarity.
-- **Tokenization:** The process of breaking down text into smaller units (tokens) for processing.
-- **Noise Vector:** A randomly generated vector used to initialize the diffusion process in generative models.
-- **Decoder:** A network component that transforms latent representations back into image space.
-- **Iterative Refinement:** The process of gradually improving the quality of generated data through multiple steps.
-- **Conditional Generation:** The process where outputs are generated based on auxiliary inputs, such as textual descriptions.
 
 ### Problem Statements
-- **Problem 1:** Achieving high-resolution and detailed images using conventional diffusion models remains challenging.
-- **Problem 2:** Existing models suffer from slow inference times during the image generation process.
-- **Problem 3:** There is limited capability in performing style transfer and generating diverse artistic variations.
+As deepfake generator continue to spread on various fields the detection models are few and less compatible, though there do exist some strong models that have strengthen their root as best detectors for deepfake data such as Deepfake Detection Challenge (DFDC)[2]. To address this, we aim to improve the performance of the MesoNet model, which has shown promise in detecting deepfakes and Face2Face manipulations.
 
 ### Loopholes or Research Areas
-- **Evaluation Metrics:** Lack of robust metrics to effectively assess the quality of generated images.
-- **Output Consistency:** Inconsistencies in output quality when scaling the model to higher resolutions.
-- **Computational Resources:** Training requires significant GPU compute resources, which may not be readily accessible.
+•	**Generalization Across Techniques:** Inconsistent performance across different deepfake generation techniques, indicating the need for more robust cross-technique generalization.
+•	**Temporal Feature Extraction:** Limited exploration of temporal feature extraction techniques, presenting opportunities for deeper investigation.
+•	**Computational Efficiency:** Significant computational resources are required for training and processing video sequences, highlighting the need for efficient model architectures.
+
 
 ### Problem vs. Ideation: Proposed 3 Ideas to Solve the Problems
-1. **Optimized Architecture:** Redesign the model architecture to improve efficiency and balance image quality with faster inference.
-2. **Advanced Loss Functions:** Integrate novel loss functions (e.g., perceptual loss) to better capture artistic nuances and structural details.
-3. **Enhanced Data Augmentation:** Implement sophisticated data augmentation strategies to improve the model’s robustness and reduce overfitting.
+1. **Optimized Architecture:** Redesign model architectures to improve computational efficiency and enhance temporal feature extraction.
+2. **Advanced Loss Functions:** Integrate advanced loss functions (Binary cross entropy loss) to enhance model sensitivity to critical deepfake characteristics.
+3. **Enhanced Data Augmentation:** Implement advanced video-specific data augmentation strategies to improve model robustness and reduce overfitting.
 
 ### Proposed Solution: Code-Based Implementation
 This repository provides an implementation of the enhanced stable diffusion model using PyTorch. The solution includes:
