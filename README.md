@@ -41,9 +41,9 @@ Terminologies
 As deepfake generator continue to spread on various fields the detection models are few and less compatible, though there do exist some strong models that have strengthen their root as best detectors for deepfake data such as Deepfake Detection Challenge (DFDC)[2]. To address this, we aim to improve the performance of the MesoNet model, which has shown promise in detecting deepfakes and Face2Face manipulations.
 
 ### Loopholes or Research Areas
-• **Generalization Across Techniques:** Inconsistent performance across different deepfake generation techniques, indicating the need for more robust cross-technique generalization.
-• **Temporal Feature Extraction:** Limited exploration of temporal feature extraction techniques, presenting opportunities for deeper investigation.
-• **Computational Efficiency:** Significant computational resources are required for training and processing video sequences, highlighting the need for efficient model architectures.
+- **Generalization Across Techniques:** Inconsistent performance across different deepfake generation techniques, indicating the need for more robust cross-technique generalization.
+- **Temporal Feature Extraction:** Limited exploration of temporal feature extraction techniques, presenting opportunities for deeper investigation.
+- **Computational Efficiency:** Significant computational resources are required for training and processing video sequences, highlighting the need for efficient model architectures.
 
 
 ### Problem vs. Ideation: Proposed 3 Ideas to Solve the Problems
