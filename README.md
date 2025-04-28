@@ -87,7 +87,7 @@ This workflow is designed to receive input as image/video fake/real and classify
 5. **Training Monitoring:**
    - Custom callback prints epoch time, train/val loss & accuracy, current LR and WD.
    - Best weights (highest val_accuracy) are checkpointed to Google Drive/disk storage automatically.
-6. Benchmark & Visual
+6. **Benchmark & Visual**
   
 
 ## How to Run the Code
