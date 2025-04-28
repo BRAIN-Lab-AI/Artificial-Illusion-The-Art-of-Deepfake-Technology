@@ -21,8 +21,9 @@ Considering these concerns, we’ve searched for a way to detect these falsifica
 - Afchar, D., Nozick, V., Yamagishi, J., & Echizen, I. (2018). Mesonet: A compact facial video forgery detection network. 2018 IEEE International Workshop on Information Forensics and Security (WIFS), 1–7. https://doi.org/10.1109/wifs.2018.8630761
 
 ### Reference Dataset
-- https://e.pcloud.link/publink/show?code=kZVFpdZ7nWSSuivFjjBxWoqvL1ilQssYhtX
-- https://www.kaggle.com/datasets/xdxd003/ff-c23
+- **Original Dataset:** https://e.pcloud.link/publink/show?code=kZVFpdZ7nWSSuivFjjBxWoqvL1ilQssYhtX
+- **FaceForensic++ Dataset:** https://www.kaggle.com/datasets/xdxd003/ff-c23
+- **Celeb-df v2 Dataset:** https://www.kaggle.com/datasets/reubensuju/celeb-df-v2
 
 ## Project Technicalities
 Deepfake Detection Technicalities
