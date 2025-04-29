@@ -13,7 +13,7 @@ Considering these concerns, we’ve searched for a way to detect these falsifica
 - **Affiliations:** KFUPM
 
 ### Project Documents
-- **Presentation:** [Project Presentation](https://github.com/BRAIN-Lab-AI/Artificial-Illusion-The-Art-of-Deepfake-Technology/blob/main/Deep_Learning_pt.pptx)
+- **Presentation:** [Project Presentation](https://github.com/BRAIN-Lab-AI/Artificial-Illusion-The-Art-of-Deepfake-Technology/blob/main/Deep_Learning_pt_final.pptx)
 - **Report:** [Project Report](https://github.com/BRAIN-Lab-AI/Artificial-Illusion-The-Art-of-Deepfake-Technology/blob/main/Artificial%20Illusion-The%20Art%20of%20Deepfake%20Technology_Final.pdf)
   
 
@@ -21,9 +21,10 @@ Considering these concerns, we’ve searched for a way to detect these falsifica
 - Afchar, D., Nozick, V., Yamagishi, J., & Echizen, I. (2018). Mesonet: A compact facial video forgery detection network. 2018 IEEE International Workshop on Information Forensics and Security (WIFS), 1–7. https://doi.org/10.1109/wifs.2018.8630761
 
 ### Reference Dataset
-- **Original Dataset:** https://e.pcloud.link/publink/show?code=kZVFpdZ7nWSSuivFjjBxWoqvL1ilQssYhtX
-- **FaceForensic++ Dataset:** https://www.kaggle.com/datasets/xdxd003/ff-c23
-- **Celeb-df v2 Dataset:** https://www.kaggle.com/datasets/reubensuju/celeb-df-v2
+- **Original Dataset:** [Deepfake Database](https://e.pcloud.link/publink/show?code=kZVFpdZ7nWSSuivFjjBxWoqvL1ilQssYhtX)
+- **FaceForensic++ Dataset:** [FaceForensics++](https://www.kaggle.com/datasets/xdxd003/ff-c23)
+- **Celeb-df v2 Dataset:** [Celeb-Deepfake Dataset V2](https://www.kaggle.com/datasets/reubensuju/celeb-df-v2)
+- **Project Dataset:** [Our Used Dataset](https://u.pcloud.link/publink/show?code=kZKecm5ZjLpSffxI6SYQgGmBHlhF8JYtO2k7)
 
 ## Project Technicalities
 Deepfake Detection Technicalities
